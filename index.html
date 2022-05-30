@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic ball</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="chart">
+            <div class="triangle" style="transform:rotate(   0deg)"><div class="circle" id="circle1"></div></div>
+            <div class="triangle" style="transform:rotate( -60deg)"><div class="circle" id="circle2"></div></div>
+            <div class="triangle" style="transform:rotate(-120deg)"><div class="circle" id="circle3"></div></div>
+            <div class="triangle" style="transform:rotate(-180deg)"><div class="circle" id="circle4"></div></div>
+            <div class="triangle" style="transform:rotate(-180deg)"><div class="circle" id="circle5"></div></div>
+            <div class="triangle" style="transform:rotate(-240deg)"><div class="circle" id="circle6"></div></div>
+            <div class="triangle" style="transform:rotate(-300deg)"><div class="circle" id="circle7"></div></div>
+
+            <div class="magic_ball">
+                <div class="answer">
+                    <span class="answer_text" id="answerText"></span>
+                </div>
+            </div>
+        </section>
+
+        <div class="question">
+            <div class="question_area">
+                <input type="text" class="question_input" id="question">
+                <button class="send_question" id="questionBtn">Задать вопрос</button>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
